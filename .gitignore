@@ -1,0 +1,4 @@
+EWARM/*/
+EWARM/*.dep
+*.swo
+*.swp
