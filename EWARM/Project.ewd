@@ -3,7 +3,7 @@
 <project>
   <fileVersion>2</fileVersion>
   <configuration>
-    <name>Discover-More</name>
+    <name>MARM-DDS</name>
     <toolchain>
       <name>ARM</name>
     </toolchain>
