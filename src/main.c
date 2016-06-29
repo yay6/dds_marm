@@ -43,7 +43,7 @@
 #include "stm32f4x7_eth.h"
 #include "netconf.h"
 #include "main.h"
-#include "tcp_echoserver.h"
+#include "dds_server.h"
 #include "serial_debug.h"
 #include <stdio.h>
 
@@ -90,8 +90,8 @@ int main(void)
   /* Initilaize the LwIP stack */
   LwIP_Init();
   
-  /* tcp echo server Init */
-  tcp_echoserver_init();
+  /* dds server Init */
+  dds_server_init();
    
   /* Infinite loop */
   while (1)

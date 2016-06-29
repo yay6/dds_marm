@@ -27,9 +27,9 @@
  * This file is part of the lwIP TCP/IP stack.
  * 
  */
-#ifndef __TCP_ECHOSERVER_H__
-#define __TCP_ECHOSERVER_H__
+#ifndef __DDS_SERVER_H__
+#define __DDS_SERVER_H__
 
-void tcp_echoserver_init(void);
+void dds_server_init(void);
 
-#endif /* __TCP_ECHOSERVER */
+#endif /* __DDS_SERVER_H__ */

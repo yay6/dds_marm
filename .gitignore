@@ -2,3 +2,4 @@ EWARM/*/
 EWARM/*.dep
 *.swo
 *.swp
+*.o
