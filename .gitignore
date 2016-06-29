@@ -3,3 +3,4 @@ EWARM/*.dep
 *.swo
 *.swp
 *.o
+*.bin
